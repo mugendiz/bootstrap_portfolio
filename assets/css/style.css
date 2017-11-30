@@ -1,0 +1,171 @@
+
+.background {
+  background-color: grey;
+}
+
+body {
+  background-color: lightgray;
+}
+
+/*.container {
+  background-color: white;
+  width: 1900px;
+}*/
+
+.row {
+  padding: 10px;
+
+}
+
+
+h4{
+  color: #0CADA7;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  display: block;
+}
+
+
+footer {
+  /*margin-top: 10px #0CADA7;*/
+
+  text-align: center;
+  color: white;
+  padding: 50px;
+  background-color: #0CADA7;
+  width: auto;
+  bottom: 0;
+
+
+
+/*.everything {
+  bottom: 0;
+}
+
+.group:after {
+  content: "containerWhite";
+  display: table;
+  clear: both;
+}
+
+.containerWhite {
+  top: 0;
+  background-color: white;
+  width: auto;
+}
+
+
+nav {
+  background-color: pink;
+
+}
+
+
+.nav1 {
+  background-color: #0CADA7;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  padding: 50px;
+  width: 200px;
+}
+
+.nav2 {
+  position: fixed;
+  padding: 20px;
+  float: right;
+  color: darkgrey;
+}
+
+.container1 {
+  background-color: lightgray;
+
+}
+
+.container2 {
+  margin: auto;
+  width: 960px;
+  height: 590px;
+}
+
+.group:after {
+  content: "container2";
+  display: table;
+  clear: both;
+}
+
+hr  {
+background-color: lightgrey;
+height: 5px;
+}
+
+.container2 .wrapper {
+  position: relative;
+  margin-top: 40px;
+
+  background-color: white;
+  width: 650px;
+    float: left;
+  line-height: 25px;
+  font-size: 20px;
+  color: grey;
+}
+
+.pics {
+  float: inherit;
+  padding: 10px;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+
+h3  {
+  margin-top: 10px;
+  text-align: center;
+  font-family: serif;
+  color: #0CADA7;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.container2 .socialMedia {
+  position: relative;
+  margin-top: 40px;
+  width: 270px;
+  float: right;
+  padding: 0px;
+  line-height: 30px;
+  font-size: 18px;
+  color: grey;
+  background-color: white;
+  text-align: center;
+
+}
+
+p {
+  padding: 30px;
+}
+
+.form {
+  padding-left: 20px;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+.group:after {
+  content: "footerItems";
+  display: block;
+  clear: both;
+}
+
+footer {
+  border-top: 10px; color: #0CADA7;
+  background-color: grey;
+  text-align: center;
+  padding: 52px;
+
+}*/
