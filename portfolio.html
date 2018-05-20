@@ -10,9 +10,8 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
   <link rel="stylesheet" href="assets/css/style.css"> </style>
-
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 </head>
 
@@ -20,102 +19,146 @@
 
   <!---  NAVBAR ---->
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
+      <span class="name">
+        <a href="index.html"> <h2>Andrew Zoka</h2></a>
+      </span>
 
-
-          <!-- inline styling NAME -->
-
-          <button type="button" class="btn btn-primary btn-lg" style="padding: 20px; background-color: #0CADA7;"><h2>Andrew Zoka</h2>
-            </button>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-            </ul>
-            <span class="navbar-text">
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <span class="navbar-text">
                 <ul class="nav2">
                   <a href="index.html">About</a>
                   <a href="portfolio.html">Portfolio</a>
                   <a href="contact.html">Contact</a>
                 </ul>
             </span>
-          </div>
-        </div>
-            </nav>
+      </div>
+    </div>
+  </nav>
 
 
+  <!--  CONTAINER  -->
 
-    <!--  CONTAINER  -->
-                        <!-- !!!!!!!! inline style background color  -->
+  <div class="container">
+    <div class="row">
 
-    <div class="container"style="background-color: lightgray";>
-      <div class="row">
+      <div class=" content col-lg-9">
+        <!-- <h4 class="mt-0">Portfolio</h4> -->
 
-        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-sm">
 
-          <div class="card" style="padding: 12px;">
+              <!-- card 1-->
 
-            <h4 class="mt-0">Portfolio</h4>
-            <hr>
+              <div class="card col-sm-12">
+                <img src="assets/images/reading.jpg" class="portfolioImg" width="286" height="220px" alt="">
 
-            <div class="container">
-              <div class="row">
-                <div class="col-sm">
-                  <img src="assets/images/reading.jpg" width="300" height="190px" alt="">
-                  <img src="assets/images/singing.png" width="300" height="190px" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">Orator</h4>
+                  <p class="card-text">Orator is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
                 </div>
-                <div class="col-sm">
-                  <img src="assets/images/coding.jpg" width="300" height="190px" alt="">
-                  <img src="assets/images/eating.jpg" width="300" height="190px" alt="">
-                </div>
+                <ul class="list-group list-group-flush">
+                  Technology used
+                  <li class="list-group-item">React</li>
+                  <li class="list-group-item">MongoDB</li>
+                  <li class="list-group-item">Okta</li>
+                  <li class="list-group-item">TailwindCSS</li>
+                </ul>
 
-                <div class="col-sm">
-                  <img src="assets/images/exploring.jpg" width="300" height="190px" alt="">
+                <div class="card-body">
+                  <a href="https://oratorcast.herokuapp.com/" class="card-link">Heroku link</a>
+                  <a href="https://github.com/mbychkowski/podcast-app.git" class="card-link">Github link</a>
                 </div>
               </div>
-            </div>
 
+
+              <!-- card 2-->
+
+              <div class="card col-sm-12">
+                <img src="assets/images/coding.jpg" class="portfolioImg" width="286" height="220px" alt="">
+
+                <div class="card-body">
+                  <h4 class="card-title">Uncreate Created</h4>
+                  <p class="card-text">In this app, users view and leave comments on the latest gadgets and things. It uses Mongoose and Cheerio to scrape articles from uncrate.com</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  Technology used
+                  <li class="list-group-item">ExpressJS</li>
+                  <li class="list-group-item">Cherio</li>
+                  <li class="list-group-item">Mongoose</li>
+                  <li class="list-group-item">Handlebars</li>
+                </ul>
+
+                <div class="card-body">
+                  <a href="https://uncreate-created.herokuapp.com/" class="card-link">Heroku link</a>
+                  <a href="https://github.com/mugendiz/uncreateCreatedScraped" class="card-link">Github link</a>
+                </div>
+              </div>
+
+              <!-- card 3-->
+
+              <div class="card col-sm-12">
+                <img src="assets/images/singing.jpg" class="portfolioImg" width="286" height="220px" alt="">
+
+                <div class="card-body">
+                  <h4 class="card-title">Orator</h4>
+                  <p class="card-text">Orator is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  Technology used
+                  <li class="list-group-item">React</li>
+                  <li class="list-group-item">MongoDB</li>
+                  <li class="list-group-item">Okta</li>
+                  <li class="list-group-item">TailwindCSS</li>
+                </ul>
+
+                <div class="card-body">
+                  <a href="https://oratorcast.herokuapp.com/" class="card-link">Heroku link</a>
+                  <a href="https://github.com/mugendiz/nytReact" class="card-link">Github link</a>
+                </div>
+              </div>
+
+
+            </div>
           </div>
-        </div>
-
-        <!-- ASIDE SOCIAL MEDIA -->
+      </div>
 
 
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h4>Connect with me</h4>
-              <hr>
+      <!-- ASIDE SOCIAL MEDIA -->
 
-              <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px"></a>
-              <a href="www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px"></a>
-              <a href=""><img src="assets/images/stackoverflow.png" alt="" width="60px"></a>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h4>Connect with me</h4>
+            <hr>
 
-
-
-            </div>
-
+            <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px"></a>
+            <a href="www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px"></a>
+            <a href=""><img src="assets/images/stackoverflow.png" alt="" width="60px"></a>
 
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!--Footer Cont-->
+  <!--Footer Cont-->
 
-
-    <div class="col-lg-12">
-
-      <footer>
-        © Copywright 2018 M. Andrew Zoka
+  <footer class="footer2">
+        <div class="container">
+          <span class="text-muted">Andrew Zoka - 2018.</span>
+        </div>
       </footer>
 
-    </div>
+
   </div>
   </div>
 </body>
