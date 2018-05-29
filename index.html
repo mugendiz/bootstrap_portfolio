@@ -1,15 +1,5 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">    </style>
-</head>
-<body> -->
 
-
-<!doctype html>
+<!--doctype html-->
 <html lang="en">
 
 <head>
@@ -21,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css"> </style>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 
   <!-- Bootsnip CSS -->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -32,11 +23,11 @@
 
   <!---  NAVBAR ---->
 
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container">
 
       <span class="name">
-        <a href="index.html"> <h2>Andrew Zoka</h2></a>
+        <a href="index.html"> Andrew </a>
       </span>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,18 +48,16 @@
   </nav>
 
 
-
   <!--  CONTAINER  -->
-  <!-- !!!!!!!! inline style background color  -->
 
   <div class="container">
     <div class="row">
 
       <div class="col-lg-9">
 
-        <div class="card" style="padding: 12px;">
+        <div class="card">
 
-          <img class="align-self-start mr-3" src="assets/images/IMG_3138.jpg" alt="Generic placeholder image" style="width:250px;">
+          <img class="picture" src="assets/images/IMG_3138.jpg" alt="Generic placeholder image" style="width:250px;">
 
           <h4 class="mt-0">About me</h4>
           <hr>
@@ -80,30 +69,154 @@
       </div>
 
 
-      <!-- THE ASIDE SOCIAL MEDIA -->
+      <!-- THE SOCIAL MEDIA -->
 
       <div class="col-sm-3">
-        <div class="card">
+        <div class="socialMedia">
           <div class="card-body">
             <h4>Connect with me</h4>
             <hr>
 
             <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px"></a>
-            <a href="www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px"></a>
-            <a href=""><img src="assets/images/stackoverflow.png" alt="" width="60px"></a>
+            <a href="https://www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px"></a>
+            <a href="mailto:mugendiz@gmail.com"><img src="assets/images/email-icon.png" alt="" width="60px"></a>
 
           </div>
 
         </div>
       </div>
     </div>
+
+
+<!-- PORTFOLIO CONTAINER -->
+
+<div class="row">
+
+  <div class=" content col-lg-9">
+    <!-- <h4 class="mt-0">Portfolio</h4> -->
+
+      <div class="row">
+        <div class="col-sm">
+
+          <!-- card 1-->
+
+          <div class="card col-sm-12">
+            <img src="assets/images/reading.jpg" class="portfolioImg" width="286" height="220px" alt="">
+
+            <div class="card-body">
+              <h4 class="card-title">Orator</h4>
+              <p class="card-text">Orator is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              Technology used
+              <li class="list-group-item">React</li>
+              <li class="list-group-item">MongoDB</li>
+              <li class="list-group-item">Okta</li>
+              <li class="list-group-item">TailwindCSS</li>
+            </ul>
+
+            <div class="card-body">
+              <a href="https://oratorcast.herokuapp.com/" class="card-link">Heroku link</a>
+              <a href="https://github.com/mbychkowski/podcast-app.git" class="card-link">Github link</a>
+            </div>
+          </div>
+
+
+          <!-- card 2-->
+
+          <div class="card col-sm-12">
+            <img src="assets/images/coding.jpg" class="portfolioImg" width="286" height="220px" alt="">
+
+            <div class="card-body">
+              <h4 class="card-title">Dar es Salaam Train Schedule</h4>
+              <p class="card-text">In this app, users view and leave comments on the latest gadgets and things. It uses Mongoose and Cheerio to scrape articles from uncrate.com</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              Technology used
+              <li class="list-group-item">ExpressJS</li>
+              <li class="list-group-item">Cherio</li>
+              <li class="list-group-item">Mongoose</li>
+              <li class="list-group-item">Handlebars</li>
+            </ul>
+
+            <div class="card-body">
+              <a href="https://mugendiz.github.io/train_schedule/" class="card-link">Project link</a>
+              <a href="https://github.com/mugendiz/train_schedule#train_schedule" class="card-link">Github link</a>
+            </div>
+          </div>
+
+          <!-- card 3-->
+
+          <div class="card col-sm-12">
+            <img src="assets/images/singing.jpg" class="portfolioImg" width="286" height="220px" alt="">
+
+            <div class="card-body">
+              <h4 class="card-title">Hut-Hut</h4>
+              <p class="card-text">Hut hut is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              Technology used
+              <li class="list-group-item">React</li>
+              <li class="list-group-item">MongoDB</li>
+              <li class="list-group-item">Okta</li>
+              <li class="list-group-item">TailwindCSS</li>
+            </ul>
+
+            <div class="card-body">
+              <a href=" https://mugendiz.github.io/Hut-Hut/" class="card-link">Project link </a>
+              <a href="https://github.com/mugendiz/Hut-Hut" class="card-link">Github link</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
   </div>
+
+</div>
+
+
+  <!--  CONTACT ME CONTAINER  -->
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="card" style="padding: 20px;">
+        <h4 class="mt-0">Contact me</h4>
+        <hr>
+
+        <div class="row">
+
+          <form>
+
+            <div class="form-group">
+              <label class="col-form-label" for="formGroupExampleInput">First name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" Enter first name="Example input">
+            </div>
+
+            <div class="form-group">
+              <label class="col-form-label" for="formGroupExampleInput2">Last name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" Enter last name="Another input">
+            </div>
+
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
 
   <!--Footer Cont-->
 
-  <footer class="footer">
+  <footer class="footer2">
     <div class="container">
-      <span class="text-muted">Andrew Zoka - 2018</span>
+      <span> Andrew Zoka - 2018 </span>
     </div>
   </footer>
 

@@ -2,37 +2,67 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #CDB79A;
+  background-color: #5498a9;
 }
 
-.content {
-  opacity: 0.9;
-  margin-bottom: 2rem;
-
+.navbar {
+  background-image: url("https://source.unsplash.com/user/marthaberg/1800x1200");
+  background-size: cover;
 }
 
+.navbar-text {
+  background-color: #5498a9;
+  border-radius: 9%;
+}
+
+.picture {
+  border-radius: 50%;
+}
 
 .name {
   padding: 5px;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  font-size: 1em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
 
-  background-color: #FFFFFF;
-    width: 300px;
-    height:70px;
-    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s;
+  text-shadow: 1px 0.5px 20px #FFEEFF;
+  width: 200px;
+  height:70px;
+  border-radius: 9%;
+
+
+  -webkit-transition: width 3s;
+    transition: width 2s;
 }
 
 .name:hover {
-    width: 800px;
-    background-color: #CDB79A;
+  width: 74%;
+  background-color: #5498a9;
 }
 
+
+a {
+  color: #000000;
+}
+
+    /* mouse over link */
+    a:hover {
+        color: #FFFFFF;
+    }
+    /* selected link */
+    a:active {
+        color: blue;
+}
+
+
 .card {
-  position: inherit;
+  margin-bottom: 20%;
+  padding: 12px;
+}
+
+.socialMedia {
+  position: fixed;
   margin-bottom: 2rem;
+  shado
 }
 
 .row {
@@ -47,48 +77,31 @@ body {
     float: none;
 }
 
-h4{
-  color: #8A9536;
+h4 {
+  color: #665f62;
 }
 
 ul {
-  list-style: none;
   text-align: center;
   display: block;
+
+  margin-right: 20px;
+  color: black;
+  text-shadow: 1px 1px 1px #FFFFFF;
 }
 
-/*contact me*/
-.footer3 {
-  position: static;
-  bottom: 0;
-  top: auto;
-  left: auto;
-  right: auto;
-
-  text-decoration-color: #FFFFFF;
-  padding: 20px;
-  background-color: #8A9536;
-}
 
 /*portfolio*/
 .footer2 {
   position: relative;
   bottom: 0;
+  font-size: 1rem;
 
-  text-decoration-color: #FFFFFF;
+  text-decoration-color: #000000;
+  text-shadow: 1px 1px 10px #FFFFFF;
+  text-align: center;
+
   padding: 20px;
-  background-color: #8A9536;
-}
+  background-image: url("https://source.unsplash.com/user/marthaberg/1800x1200");
 
-/*Home + contact me*/
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-
-    padding: 20px;
-    background-color: #8A9536;
-    color: white;
-    text-align: center;
 }
