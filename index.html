@@ -16,6 +16,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/pageEffects.js">
   </script>
 </head>
@@ -40,9 +41,9 @@
         </ul>
         <span class="navbar-text">
               <ul class="nav2">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="#index.html">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
               </ul>
           </span>
       </div>
@@ -52,131 +53,129 @@
 
   <!--  ABOUT CONTAINER  -->
 
-    <div class="col-full">
-        <div class="row aboutRow">
+  <div class="col-full">
+    <div class="row">
 
-          <!-- pic -->
-          <div class="col-4">
-            <img class="picture" src="assets/images/IMG-92.jpg" alt="assets/images/IMG-92.JPG" style="width:250px;">
-          </div>
-          <!-- end pic -->
+      <!-- pic -->
+      <div class="col-4">
+        <img class="picture" src="assets/images/IMG_3138.jpg" alt="assets/images/IMG-92.JPG" style="width:250px;">
+      </div>
+      <!-- end pic -->
 
-          <div class="col-8" <h4>About me</h4>
-            <hr>
-            <p>I am a Foreign Service Officer living in Silver Spring, Maryland. Right now studying software development Bootcamp at George Washington University. I graduated from my BA in Urban Geography in the Netherlands at Roosevelt Academy and went
-              on to pursue Graduate School studies in Massachusetts at Clark University. After this I began work at the Embassy of the United Republic of Tanzania in Wasnington, D.C. where I worked as a Visa Clerk and later as a Foreign Service Officer.
-              sUpon Completion of my studies at George Washington University Coding Bootcamp, I will be a Full Stack Developer better able to serve at my current job and beyond </p>
-            </div>
-
-          </div>
-        </div>
+      <div class="col-8"> <h1>About me</h1>
+        <hr>
+        <p>I am a Foreign Service Officer living in Silver Spring, Maryland. Right now studying software development Bootcamp at George Washington University. I graduated from my BA in Urban Geography in the Netherlands at Roosevelt Academy and went on to
+          pursue Graduate School studies in Massachusetts at Clark University. After this I began work at the Embassy of the United Republic of Tanzania in Wasnington, D.C. where I worked as a Visa Clerk and later as a Foreign Service Officer. sUpon Completion
+          of my studies at George Washington University Coding Bootcamp, I will be a Full Stack Developer better able to serve at my current job and beyond </p>
       </div>
 
+    </div>
+  </div>
 
-    <!-- THE SOCIAL MEDIA -->
 
-    <!-- <div class="col-sm-3">
-      <div class="socialMedia">
-        <div class="card-body-social">
+  <!-- THE SOCIAL MEDIA -->
 
-          <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px"></a>
-          <a href="https://www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px"></a>
-          <a href="mailto:mugendiz@gmail.com"><img src="assets/images/email-icon.png" alt="" width="60px"></a>
+  <div class="col-sm-3">
+    <div class="socialMedia">
+      <div class="card-body-social">
 
-        </div>
+        <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px"></a>
+        <a href="https://www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px"></a>
+        <a href="mailto:mugendiz@gmail.com"><img src="assets/images/email-icon.png" alt="" width="60px"></a>
+
       </div>
-    </div> -->
+    </div>
+  </div>
 
-    
+
   <div class="container">
 
     <!-- PORTFOLIO CONTAINER -->
 
-        <hr>
-        <br><br><br>
+    <hr>
+    <br><br><br>
 
-        <h4 class="mt-0">Portfolio</h4>
+    <a id="portfolio"><h1>Portfolio</h1></a>
 
-            <!-- card 1-->
-            <div class="card col-sm-12">
-              <img src="assets/images/reading.jpg" class="portfolioImg" width="286" height="220px" alt="">
+    <!-- card 1-->
+    <div class="card col-sm-12">
+      <img src="assets/images/reading.jpg" class="portfolioImg responsive" width="700" height="400" alt="">
 
-              <div class="card-body">
-                <h4 class="card-title">Orator</h4>
-                <p class="card-text">Orator is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                Technology used
-                <li class="list-group-item">React</li>
-                <li class="list-group-item">MongoDB</li>
-                <li class="list-group-item">Okta</li>
-                <li class="list-group-item">TailwindCSS</li>
-              </ul>
+      <div class="card-body">
+        <h4 class="card-title">Orator</h4>
+        <p class="card-text">Orator is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        Technology used
+        <li class="list-group-item">React</li>
+        <li class="list-group-item">MongoDB</li>
+        <li class="list-group-item">Okta</li>
+        <li class="list-group-item">TailwindCSS</li>
+      </ul>
 
-              <div class="card-body">
-                <a href="https://oratorcast.herokuapp.com/" class="card-link">Heroku link</a>
-                <a href="https://github.com/mbychkowski/podcast-app.git" class="card-link">Github link</a>
-              </div>
-            </div>
+      <div class="card-body">
+        <a href="https://oratorcast.herokuapp.com/" class="card-link">Heroku link</a>
+        <a href="https://github.com/mbychkowski/podcast-app.git" class="card-link">Github link</a>
+      </div>
+    </div>
 
-            <!-- card 2-->
-            <div class="card col-sm-12">
-              <img src="assets/images/coding.jpg" class="portfolioImg" width="286" height="220px" alt="">
+    <!-- card 2-->
+    <div class="card col-sm-12">
+      <img src="assets/images/coding.jpg" class="portfolioImg responsive" width="700" height="400" alt="">
 
-              <div class="card-body">
-                <h4 class="card-title">Dar es Salaam Train Schedule</h4>
-                <p class="card-text">In this app, users view and leave comments on the latest gadgets and things. It uses Mongoose and Cheerio to scrape articles from uncrate.com</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                Technology used
-                <li class="list-group-item">ExpressJS</li>
-                <li class="list-group-item">Cherio</li>
-                <li class="list-group-item">Mongoose</li>
-                <li class="list-group-item">Handlebars</li>
-              </ul>
+      <div class="card-body">
+        <h4 class="card-title">Dar es Salaam Train Schedule</h4>
+        <p class="card-text">In this app, users view and leave comments on the latest gadgets and things. It uses Mongoose and Cheerio to scrape articles from uncrate.com</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        Technology used
+        <li class="list-group-item">ExpressJS</li>
+        <li class="list-group-item">Cherio</li>
+        <li class="list-group-item">Mongoose</li>
+        <li class="list-group-item">Handlebars</li>
+      </ul>
 
-              <div class="card-body">
-                <a href="https://mugendiz.github.io/train_schedule/" class="card-link">Project link</a>
-                <a href="https://github.com/mugendiz/train_schedule#train_schedule" class="card-link">Github link</a>
-              </div>
-            </div>
+      <div class="card-body">
+        <a href="https://mugendiz.github.io/train_schedule/" class="card-link">Project link</a>
+        <a href="https://github.com/mugendiz/train_schedule#train_schedule" class="card-link">Github link</a>
+      </div>
+    </div>
 
 
-            <!-- card 3-->
-            <div class="card col-sm-12">
-              <img src="assets/images/eating.jpg" class="portfolioImg" width="286" height="220px" alt="">
+    <!-- card 3-->
+    <div class="card col-sm-12">
+      <img src="assets/images/eating.jpg" class="portfolioImg responsive" width="700" height="400" alt="">
 
-              <div class="card-body">
-                <h4 class="card-title">Hut-Hut</h4>
-                <p class="card-text">Hut hut is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                Technology used
-                <li class="list-group-item">React</li>
-                <li class="list-group-item">MongoDB</li>
-                <li class="list-group-item">Okta</li>
-                <li class="list-group-item">TailwindCSS</li>
-              </ul>
+      <div class="card-body">
+        <h4 class="card-title">Hut-Hut</h4>
+        <p class="card-text">Hut hut is web application that allows you to browse, subscribe, and listen to your favorite podcasts. Users can create profile to subscribe to their favorite podcasts to stay up to date with the latest episodes.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        Technology used
+        <li class="list-group-item">React</li>
+        <li class="list-group-item">MongoDB</li>
+        <li class="list-group-item">Okta</li>
+        <li class="list-group-item">TailwindCSS</li>
+      </ul>
 
-              <div class="card-body">
-                <a href=" https://mugendiz.github.io/Hut-Hut/" class="card-link">Project link </a>
-                <a href="https://github.com/mugendiz/Hut-Hut" class="card-link">Github link</a>
-              </div>
-            </div>
+      <div class="card-body">
+        <a href=" https://mugendiz.github.io/Hut-Hut/" class="card-link">Project link </a>
+        <a href="https://github.com/mugendiz/Hut-Hut" class="card-link">Github link</a>
+      </div>
+    </div>
 
 
     <!--  CONTACT ME CONTAINER  -->
+    <a id="contact"><h1>Contact me</h1></a>
 
-      <div class="col-lg-8">
-        <div class="card">
-          <h4 class="mt-0">Contact me</h4>
+    <div class="col-lg-8">
+      <div class="card">
+        <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px">Checkout my github</a>
+        <a href="https://www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px">Here's my LinkedIn Profile</a>
+        <a href="mailto:mugendiz@gmail.com"><img src="assets/images/email-icon.png" alt="" width="60px">Email me!</a>
 
-          <a href="https://github.com/mugendiz"><img src="assets/images/github.png" alt="" width="60px">Checkout my github</a>
-          <a href="https://www.linkedin.com/in/andrewzoka"><img src="assets/images/linkedin.png" alt="" width="60px">Here's my LinkedIn Profile</a>
-          <a href="mailto:mugendiz@gmail.com"><img src="assets/images/email-icon.png" alt="" width="60px">Email me!</a>
-
-        </div>
       </div>
+    </div>
   </div>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -191,5 +190,4 @@
 
 
 </body>
-
 </html>

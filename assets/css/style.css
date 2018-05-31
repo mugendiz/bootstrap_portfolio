@@ -7,7 +7,7 @@ body {
 .navbar {
   background-image: url("https://source.unsplash.com/user/marthaberg/1800x1200");
   background-size: cover;
-  box-shadow: 0px 4px 4px #000000;
+  box-shadow: 0px 4px 4px #65727B;
   width: 100%;
 }
 
@@ -16,9 +16,9 @@ button {
 }
 
 .navbar-text {
-  background-color: #b9d5dc;
+  background-color: #BFD7E0;
   border-radius: 9%;
-  box-shadow: 7px 2px 2px #000000;
+  box-shadow: 7px 2px 2px #65727B;
 
   float: right;
 }
@@ -32,12 +32,12 @@ button {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
 
-  text-shadow: 1px 0.5px 20px #FFEEFF;
+  text-shadow: 1px 0.5px 20px #F5F5F5;
   width: 200px;
   height:70px;
   border-radius: 9%;
-  background-color: #b9d5dc;
-  box-shadow: 7px 2px 2px #000000;
+  background-color: #6190AF;
+  box-shadow: 7px 2px 2px #65727B;
 
   -webkit-transition: width 3s;
     transition: width 2s;
@@ -45,17 +45,18 @@ button {
 
 .name:hover {
   width: 74%;
-  background-color: #86b7c3;
+  background-color: #BFD7E0;
 }
 
 
 a {
   color: #000000;
+  z-index: 9;
 }
 
     /* mouse over link */
     a:hover {
-        color: #FFFFFF;
+        color: #F5F5F5;
     }
     /* selected link */
     a:active {
@@ -67,41 +68,39 @@ a {
   margin-top: 5%;
   margin-bottom: 15%;
   padding: 11%;
-  background-color: #b9d5dc;
-  /*box-shadow: 8px 4px 4px #000000;*/
-  box-shadow: inset 5em 1em #c39286;
+  background-color: #BFD7E0;
+  box-shadow: inset 5em 1em #E55218;
   z-index: -1;
 
 }
 
+.list-group-item {
+  width: auto;
+}
 
 .aboutRow {
-  box-shadow: inset 5em 1em #c39286;
-  /*background-color: #b9d5dc;*/
-
+  box-shadow: inset 5em 1em #E55218;
 }
  .col8 {
   padding: 21%;
   float: right;
 }
 
-/*.card-body-social {
+.card-body-social {
   position: fixed;
-  margin-bottom: 2rem;
+  margin-top: 50%;
   z-index: 9999;
-  float: right;
+  float: none;
   right: 0;
-}*/
+}
 
 .row {
   padding: 15%;
 }
 
 .portfolioImg {
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 100%;
+  max-height: 100%;
     float: none;
 }
 
@@ -116,7 +115,7 @@ ul {
 
   margin-right: 20px;
   color: black;
-  text-shadow: 0px 1px 1px #a9546e;
+  text-shadow: 0px 1px 1px #E55218;
 }
 
 #myBtn {
@@ -128,8 +127,8 @@ ul {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #86b7c3;
-  color: white;
+  background-color: #BFD7E0;
+  color: #F5F5F5;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -152,11 +151,11 @@ ul {
   padding: 20px;
   background-image: url("https://source.unsplash.com/user/marthaberg/1800x1200");
   background: linear-gradient(to top 100%, 0%);
-  box-shadow: 7px 2px 2px #000000;
+  box-shadow: 7px 2px 2px #;
 }
 
 .footer-text {
-  background-color: #c39286;
+  background-color: #E55218;
   text-shadow: 2px 2px 15px #FFFFFF;
   font-family: 'Great Vibes', cursive;
   font-size: 1.5rem;
