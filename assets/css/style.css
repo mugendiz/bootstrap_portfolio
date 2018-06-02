@@ -74,8 +74,13 @@ margin: 1rem;
   position: fixed;
   top: 20%;
   right: 0px;
+  line-height: 1rem;
   z-index: 99;
-  margin: 10px;
+
+}
+
+.socialAside img {
+  margin: 0.5rem;
 }
 
 .col-8 {
