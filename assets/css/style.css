@@ -83,6 +83,9 @@ margin: 1rem;
   float: right;
 }
 
+@@media query {
+
+}
 
 .card {
   margin-top: 5%;
@@ -133,8 +136,7 @@ ul {
 
 .btn {
   font-size: 12px;
-  background-color: #a99054;
-  outline-color: #a99054;
+  background-color: #FFFFFF;
   color: #000000;
 }
 
