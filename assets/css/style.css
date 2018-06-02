@@ -4,6 +4,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.buttons {
+  float: right;
+}
+
 .navbar {
   background-image: url("https://source.unsplash.com/user/marthaberg/1800x1200");
   background-size: cover;
@@ -11,20 +15,18 @@ body {
   width: 100%;
 }
 
-button {
-  z-index: 5;
-}
-
 .navbar-text {
   background-color: #BFD7E0;
-  border-radius: 9%;
+  border-style: groove;
   box-shadow: 7px 2px 2px #65727B;
+  opacity: 0.9;
 
   float: right;
 }
 
 .picture {
   border-radius: 50%;
+  box-shadow: 0px 4px 4px #65727B;
 }
 
 .name {
@@ -35,9 +37,10 @@ button {
   text-shadow: 1px 0.5px 20px #F5F5F5;
   width: 200px;
   height:70px;
-  border-radius: 9%;
+  border-style: groove;
   background-color: #6190AF;
   box-shadow: 7px 2px 2px #65727B;
+  opacity: 0.9;
 
   -webkit-transition: width 3s;
     transition: width 2s;
@@ -51,7 +54,7 @@ button {
 
 a {
   color: #000000;
-  z-index: 9;
+  z-index: 99;
 }
 
     /* mouse over link */
@@ -63,14 +66,30 @@ a {
         color: blue;
       }
 
+.socialMedia img {
+margin: 1rem;
+}
+
+.socialAside {
+  position: fixed;
+  top: 20%;
+  right: 0px;
+  z-index: 99;
+  margin: 10px;
+}
+
+.col-8 {
+  position: inherit;
+  float: right;
+}
+
 
 .card {
   margin-top: 5%;
   margin-bottom: 15%;
-  padding: 11%;
+  padding: 18%;
   background-color: #BFD7E0;
   box-shadow: inset 5em 1em #E55218;
-  z-index: -1;
 
 }
 
@@ -81,18 +100,11 @@ a {
 .aboutRow {
   box-shadow: inset 5em 1em #E55218;
 }
- .col8 {
+
+ /*.col8 {
   padding: 21%;
   float: right;
-}
-
-.card-body-social {
-  position: fixed;
-  margin-top: 50%;
-  z-index: 9999;
-  float: none;
-  right: 0;
-}
+}*/
 
 .row {
   padding: 15%;
@@ -101,7 +113,7 @@ a {
 .portfolioImg {
   max-width: 100%;
   max-height: 100%;
-    float: none;
+  box-shadow: 0px 4px 4px #65727B;
 }
 
 h4 p {
@@ -112,10 +124,18 @@ h4 p {
 ul {
   text-align: center;
   display: block;
+  list-style: none;
 
   margin-right: 20px;
   color: black;
   text-shadow: 0px 1px 1px #E55218;
+}
+
+.btn {
+  font-size: 12px;
+  background-color: #a99054;
+  outline-color: #a99054;
+  color: #000000;
 }
 
 #myBtn {
@@ -155,8 +175,7 @@ ul {
 }
 
 .footer-text {
-  background-color: #E55218;
-  text-shadow: 2px 2px 15px #FFFFFF;
+  text-shadow: 0px 1px 1px #E55218;
   font-family: 'Great Vibes', cursive;
   font-size: 1.5rem;
 }
