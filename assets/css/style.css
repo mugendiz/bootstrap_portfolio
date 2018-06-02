@@ -20,13 +20,14 @@ body {
   border-style: groove;
   box-shadow: 7px 2px 2px #65727B;
   opacity: 0.9;
-
-  float: right;
 }
 
 .picture {
   border-radius: 50%;
   box-shadow: 0px 4px 4px #65727B;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
 }
 
 .name {
@@ -88,10 +89,6 @@ margin: 1rem;
   float: right;
 }
 
-@@media query {
-
-}
-
 .card {
   margin-top: 5%;
   margin-bottom: 15%;
@@ -108,11 +105,6 @@ margin: 1rem;
 .aboutRow {
   box-shadow: inset 5em 1em #E55218;
 }
-
- /*.col8 {
-  padding: 21%;
-  float: right;
-}*/
 
 .row {
   padding: 15%;
